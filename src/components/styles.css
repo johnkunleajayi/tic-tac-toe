@@ -174,3 +174,27 @@
   background-color: #c82333; /* Adjust the hover color for pause state */
 }
 
+@media screen and (max-width: 768px) {
+  .button-container {
+    position: static;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 15px;
+  }
+
+  .play-sound-btn, .restart-btn, .mode-btn, .next-round-btn {
+    margin: 10px 0;
+    width: 100%; /* Make buttons full-width on small screens */
+  }
+
+  /* Reposition buttons after the Game Results container */
+  .game-results-container + .button-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 15px;
+  }
+}
+
+
