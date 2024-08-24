@@ -185,7 +185,7 @@
 
   .play-sound-btn, .restart-btn, .mode-btn, .next-round-btn {
     margin: 10px 0;
-    width: 100%; /* Make buttons full-width on small screens */
+    width: 50%; /* Make buttons full-width on small screens */
   }
 
   /* Reposition buttons after the Game Results container */
