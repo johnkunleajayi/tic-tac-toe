@@ -1,0 +1,176 @@
+.tic-tac-toe-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px;
+    text-align: center;
+  }
+  
+  .row {
+    display: flex;
+  }
+  
+  .square {
+    width: 60px;
+    height: 60px;
+    margin: 5px;
+    background-color: white;
+    border: 1px solid #999;
+    border-radius: 5px;
+    font-size: 24px;
+    cursor: pointer;
+  }
+  
+  .next-round-btn {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 5px;
+  }
+  
+  .next-round-btn:hover {
+    background-color: #45a049;
+  }
+  
+  .next-round-btn:disabled {
+    background-color: #cccccc;
+    cursor: not-allowed;
+  }
+  
+  .game-results-container {
+    border: 2px solid #4CAF50;
+    border-radius: 5px;
+    padding: 15px;
+    background-color: #f9f9f9;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    margin-top: 5px;
+    text-align: center;
+  }
+
+  .game-results-container p {
+    margin: 5px 0; /* Reduce the vertical margin between paragraphs */
+}
+
+.game-results-container h4 {
+  margin: 5px 0; /* Reduce the vertical margin between paragraphs */
+}
+
+.title-container {
+  text-align: center;
+  margin-bottom: 10px; /* Optional: Adjust bottom margin of the container if needed */
+}
+
+.title-container h1 {
+  margin: 10px 0; /* Adjust vertical margin between h1 and other elements */
+}
+
+.title-container p {
+  margin: 5px 0; /* Adjust vertical margin of the paragraph */
+}
+
+  
+  .restart-btn {
+    background-color: #e90e0e;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 5px;
+    display: inline-block;
+  }
+
+  .restart-btn:hover {
+    background-color: #f8c007;
+  }
+
+  .welcome-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 40px;
+    text-align: center;
+  }
+  
+  .welcome-container h1 {
+    font-size: 2rem;
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  .welcome-container p {
+    font-size: 1.2rem;
+    margin-bottom: 30px;
+  }
+  
+  .mode-btn {
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 10px;
+  }
+  
+  .mode-btn:hover {
+    background-color: #0056b3;
+  }
+  
+
+  
+  .dark-image {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    width: 150px;
+    height: auto;
+    cursor: pointer;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    border-radius: 10px;
+    display: block;
+  }
+  
+
+/* Ensure the button container is positioned absolutely */
+.button-container {
+  position: absolute;
+  top: 10px; /* Adjust the distance from the top as needed */
+  right: 10px; /* Adjust the distance from the right as needed */
+  display: flex;
+  justify-content: flex-end;
+  z-index: 10; /* Ensure the button is on top of other elements */
+}
+
+.play-sound-btn {
+  background-color: #007bff; /* Adjust the background color as needed */
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.play-sound-btn:hover {
+  background-color: #0056b3; /* Adjust the hover color as needed */
+}
+
+.play-sound-btn.pause {
+  background-color: #dc3545; /* Adjust the background color for pause state */
+}
+
+.play-sound-btn.pause:hover {
+  background-color: #c82333; /* Adjust the hover color for pause state */
+}
+
